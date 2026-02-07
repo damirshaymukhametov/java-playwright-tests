@@ -15,9 +15,6 @@ public class AddItemsToTheCartTest {
     @DisplayName("Search for bolts")
     @Test
     void searchForBolts(Page page) {
-
-      //  page.onConsoleMessage(msg -> System.out.println(msg.txt()));
-
         page.navigate("https://practicesoftwaretesting.com/");
         page.getByPlaceholder("Search").fill("Bolt");
         page.getByPlaceholder("Search").press("Enter");
