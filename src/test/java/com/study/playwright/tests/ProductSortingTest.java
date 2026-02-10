@@ -15,7 +15,7 @@ import java.util.List;
 class ProductSortingTest {
 
     @Test
-    @DisplayName("Sort by price on main page test")
+    @DisplayName("Sort by price from High to Low on main page test")
     void sortByDescendingPrice(Page page) {
         MainPage mainPage = new MainPage(page)
                 .open()
