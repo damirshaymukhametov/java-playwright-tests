@@ -1,4 +1,4 @@
-package com.study.playwright;
+package com.study.playwright.config;
 
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.junit.Options;
